@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Lato' sans-serif;
+}
+/* mav bar start */
+#navbar{
+    background-color: aliceblue;
+}
+#logo{
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 5px;
+}
+#logo span{
+    color: rgba(6, 177, 250, 0.94);
+}
+.navbar-toggler span{
+    color: rgba(6, 177, 250, 0.94);
+}
+.navbar-nav{
+    margin-left: 20px;
+}
+.nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 550;
+    color: black;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+}
+.nav-item .nav-link:hover{
+    background-color: rgba(6, 177, 250, 0.94);
+    color: white;
+}
+#navbar form button{
+    background-color: rgba(6, 177, 250, 0.94);
+    color: white;
+    border: none;
+}
+/* navbar end */
+
+.about {
+    padding: 50px;
+    margin-top: 0px;
+    background: white;
+}
+.main-txt{
+    text-align: center;
+}
+.main-txt span{
+    color:rgba(6, 177, 250, 0.94);
+}
+
+.about .card {
+    border-radius: 10px;
+}
+
+.about .card img {
+    border-radius: 10px;
+}
+
+.about h2 {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.about p {
+    font-weight: 500;
+}
+
+#about-btn {
+    width: 150px;
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(6, 177, 250, 0.94);
+    color: white;
+    letter-spacing: 2;
+    font-weight: 550;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#about-btn:hover {
+    width: 170px;
+}
+
+@media (max-width:765px) {
+    .about {
+        padding: 0;
+    }
+}
+
+/* about end */
+
+/* footer start */
+#footer {
+    width: 100%;
+    margin-top: 0px;
+    text-align: center;
+    background: white;
+}
+
+#footer h1 {
+    font-weight: 600;
+    padding-top: 30px;
+    text-shadow: 0px 0px 1px black;
+}
+
+#footer h1 span {
+    color: rgba(6, 177, 250, 0.94);
+}
+
+#footer h1 span {
+    color: rgba(6, 177, 250, 0.94);
+}
+
+.social-links i {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    background: black;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.social-links i:hover {
+    background: rgba(6, 177, 250, 0.94);
+}
+
+.Contactme span {
+    color: rgba(6, 177, 250, 0.94);
+}
+
+#footer .credit {
+    background-color: #8fd9e9;
+    color: white;
+    border-radius: 15px;
+}
+
+#footer .coading {
+    text-decoration: none;
+    color: black;
+}
